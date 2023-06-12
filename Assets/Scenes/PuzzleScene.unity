@@ -136,13 +136,14 @@ GameObject:
   - component: {fileID: 190566889}
   - component: {fileID: 190566888}
   - component: {fileID: 190566887}
+  - component: {fileID: 190566892}
   - component: {fileID: 190566886}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!195 &190566886
 NavMeshAgent:
@@ -274,13 +275,42 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190566885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.05625, y: 1.0799475, z: 20.65846}
+  m_LocalPosition: {x: 43.05625, y: 1.0799475, z: 2.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &190566892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190566885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78250f280b3e1924fb235b44bce8e4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAgent: {fileID: 190566886}
+  startWaitTime: 4
+  timeToRotate: 2
+  speedWalk: 0
+  speedRun: 9
+  viewRadius: 15
+  viewAngle: 90
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
+  meshResolution: 1
+  edgeIterations: 4
+  edgeDistance: 0.5
+  waypoints: []
 --- !u!1 &258943154
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,8 +726,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954246236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.91365, y: 0.09, z: 18.7}
-  m_LocalScale: {x: 1.8574, y: 1.8574, z: 1.8574}
+  m_LocalPosition: {x: 44.91365, y: 0.09, z: 15.9}
+  m_LocalScale: {x: 5.288575, y: 5.288575, z: 5.288575}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1144,7 +1174,7 @@ GameObject:
   - component: {fileID: 1693457788}
   - component: {fileID: 1693457787}
   - component: {fileID: 1693457786}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1230,7 +1260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693457785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.1, y: 1.5, z: 3.08}
+  m_LocalPosition: {x: 23.1, y: 2.1, z: 3.08}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
