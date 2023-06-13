@@ -332,7 +332,7 @@ MonoBehaviour:
   - {fileID: 118619629}
   player: {fileID: 2009085180}
   sightRange: 10
-  attackRange: 10
+  attackRange: 5
 --- !u!1 &258943154
 GameObject:
   m_ObjectHideFlags: 0
