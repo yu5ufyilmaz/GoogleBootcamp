@@ -15,6 +15,10 @@ public class NavMeshAI : MonoBehaviour
     public float sightRange, attackRange;
     private bool playerInSightRange, playerInAttackRange;
 
+    private bool isPlayerDead = false;
+    private float chaseSpeed = 5f;
+    private float normalSpeed = 3.5f;
+
     private void Start()
     {
         SetNextWaypoint();
@@ -22,37 +26,47 @@ public class NavMeshAI : MonoBehaviour
 
     private void Update()
     {
-        playerInSightRange = Vector3.Distance(transform.position, player.position) <= sightRange;
-        playerInAttackRange = Vector3.Distance(transform.position, player.position) <= attackRange;
+        if (!isPlayerDead)
+        {
+            playerInSightRange = Vector3.Distance(transform.position, player.position) <= sightRange;
+            playerInAttackRange = Vector3.Distance(transform.position, player.position) <= attackRange;
 
-        if (!playerInSightRange && !playerInAttackRange)
-        {
-            if (!destinationPointSet)
+            if (!playerInSightRange && !playerInAttackRange)
             {
-                Patroling();
+                if (!destinationPointSet)
+                {
+                    Patroling();
+                }
             }
-        }
-        else if (playerInSightRange && !playerInAttackRange)
-        {
-            ChasePlayer();
-        }
-        else if (playerInSightRange && playerInAttackRange)
-        {
-            AttackPlayer();
+            else if (playerInSightRange && !playerInAttackRange)
+            {
+                if (!IsPlayerBehindObstacle())
+                {
+                    ChasePlayer();
+                }
+                else
+                {
+                    if (!destinationPointSet)
+                    {
+                        Patroling();
+                    }
+                }
+            }
+            else if (playerInSightRange && playerInAttackRange)
+            {
+                AttackPlayer();
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        if (agent.remainingDistance <= agent.stoppingDistance)
+        if (!isPlayerDead && agent.remainingDistance <= agent.stoppingDistance)
         {
-            if (!agent.pathPending)
+            if (!agent.pathPending && destinationPointSet)
             {
-                if (destinationPointSet)
-                {
-                    destinationPointSet = false;
-                    StartCoroutine(WaitBeforeNextMovement());
-                }
+                destinationPointSet = false;
+                StartCoroutine(WaitBeforeNextMovement());
             }
         }
     }
@@ -80,6 +94,7 @@ public class NavMeshAI : MonoBehaviour
 
     private void ChasePlayer()
     {
+        agent.speed = chaseSpeed; // Set the chase speed
         agent.SetDestination(player.position);
     }
 
@@ -87,5 +102,31 @@ public class NavMeshAI : MonoBehaviour
     {
         transform.LookAt(player);
         // Perform attack actions here
+
+        isPlayerDead = true;
+        StartCoroutine(RestartGame());
+    }
+
+    private IEnumerator RestartGame()
+    {
+        yield return new WaitForSeconds(2f); // Wait for 2 seconds before restarting the game
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
+
+    private bool IsPlayerBehindObstacle()
+    {
+        Vector3 direction = player.position - transform.position;
+        RaycastHit hit;
+
+        if (Physics.Raycast(transform.position, direction, out hit, sightRange))
+        {
+            if (hit.collider.CompareTag("Obstacle"))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
