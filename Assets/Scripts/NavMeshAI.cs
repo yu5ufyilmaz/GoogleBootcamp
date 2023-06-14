@@ -19,8 +19,11 @@ public class NavMeshAI : MonoBehaviour
     private float chaseSpeed = 5f;
     private float normalSpeed = 3.5f;
 
+    private Animator _animator;    
+
     private void Start()
     {
+        _animator = GetComponent<Animator>();
         SetNextWaypoint();
     }
 
@@ -80,7 +83,7 @@ public class NavMeshAI : MonoBehaviour
 
     private IEnumerator WaitBeforeNextMovement()
     {
-        yield return new WaitForSeconds(2f); // Wait for 2 seconds before moving to the next waypoint
+        yield return new WaitForSeconds(2f); 
         SetNextWaypoint();
     }
 
@@ -94,7 +97,8 @@ public class NavMeshAI : MonoBehaviour
 
     private void ChasePlayer()
     {
-        agent.speed = chaseSpeed; // Set the chase speed
+        agent.speed = chaseSpeed; 
+        _animator.SetFloat("Speed",chaseSpeed);
         agent.SetDestination(player.position);
     }
 
@@ -109,7 +113,7 @@ public class NavMeshAI : MonoBehaviour
 
     private IEnumerator RestartGame()
     {
-        yield return new WaitForSeconds(2f); // Wait for 2 seconds before restarting the game
+        yield return new WaitForSeconds(0.5f); 
 
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
