@@ -113,7 +113,7 @@ public class NavMeshAI : MonoBehaviour
 
     private IEnumerator RestartGame()
     {
-        yield return new WaitForSeconds(0.5f); 
+        yield return new WaitForSeconds(1.5f); 
 
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
