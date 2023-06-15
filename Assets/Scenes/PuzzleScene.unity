@@ -1636,7 +1636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 853449870958614953, guid: c30ed9543940b044aa984dfa6a3df724, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.9779005
+      value: 12.63
       objectReference: {fileID: 0}
     - target: {fileID: 853449870958614953, guid: c30ed9543940b044aa984dfa6a3df724, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1670,6 +1670,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2009085180}
+    - target: {fileID: 7960275686856688766, guid: c30ed9543940b044aa984dfa6a3df724, type: 3}
+      propertyPath: sightRange
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960275686856688766, guid: c30ed9543940b044aa984dfa6a3df724, type: 3}
+      propertyPath: attackRange
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7960275686856688766, guid: c30ed9543940b044aa984dfa6a3df724, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
