@@ -45,8 +45,14 @@ Unity-39
     [Google Daily Scrum Döküman](https://docs.google.com/document/d/1kbJguhVFqE5Gtyb0yvew65h-MpoLBR-cYYN5P8h0GVQ/edit?usp=sharing)
 
   -  **Sprint board update**:
+  ![sprint1board](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/sprint1board.png) 
 
-  -   **Ürün Durumu**:
+  -   **Ürün Durumu**:  
+    ![asker1](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/asker.gif)  
+    ![ilkekran](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/ilkekran.jpeg)  
+    ![ikekran2](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/ilkekran2.jpeg)  
+    ![karaktergörünümü](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/karakterg%C3%B6r%C3%BCn%C3%BCm%C3%BC.png)  
+    ![karaktergif](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/karaktergif.gif)  
     
 
   -   **Sprint Review**:
