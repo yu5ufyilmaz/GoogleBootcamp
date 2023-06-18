@@ -50,14 +50,13 @@ Unity-39
     
 
   -   **Sprint Review**:
-       Alınan kararlar: Günlük toplantı notları tutulacak. Bulmaca fikirlerine bakılıp Discord üzerinden oluşturulan bulmaca kanalına yazılmalı. Ormanda geçen bir level design yapılmalı. Hikaye, konu ve karakter oluşumu temelleriyle bitirildiği için kod kısmına geçilmeli.
+       Alınan kararlar: Günlük toplantı notları tutulacak. Bulmaca fikirlerine bakılıp Discord üzerinden oluşturulan bulmaca kanalına yazılmalı. Ormanda geçen bir level design yapılmalı. Hikaye, konu ve karakter oluşumu temelleriyle bitirildiği için kod kısmına geçilmeli.  
       Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
   -   **Sprint Retrospective**:
-      -UI/UX geliştirilmeye başlanacak.
-      -Ara görevler belirlenecek ve görev dağılımı yapılacak.
-      
-    Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
+      -UI/UX geliştirilmeye başlanacak.  
+      -Ara görevler belirlenecek ve görev dağılımı yapılacak.  
+        *Katılım*: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
        ---
 
