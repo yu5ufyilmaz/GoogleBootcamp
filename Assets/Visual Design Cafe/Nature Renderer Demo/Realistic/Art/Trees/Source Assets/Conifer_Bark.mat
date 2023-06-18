@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Conifer_Bark
+  m_Shader: {fileID: 4800000, guid: 5354841ef6d24a94ab5a4d1b80a940fb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BAKED_MESH_DATA
+  - _COLOR_TINT
+  - _LIGHTING_QUALITY_HIGH
+  - _NORMALMAP
+  - _WIND
+  m_InvalidKeywords:
+  - _DISABLE_DECALS
+  - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
+  - _OVERLAY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - ForwardEmissiveForDeferred
+  - DistortionVectors
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 1a963b442f079054d97b6543dd119481, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: fb3aa4ad87ec1994494e3665cbdcdfcc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 2800000, guid: 902e5a797d8e0264e9c9ac00621c406f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1a963b442f079054d97b6543dd119481, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: fb3aa4ad87ec1994494e3665cbdcdfcc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PackedMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryMetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryOcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryPackedMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Diffusion_Profile: 3.5648174
+    - EFFECT_BILLBOARD: 0
+    - EFFECT_EXTRA_TEX: 1
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClipThreshold: 0.1
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaTest: 0
+    - _AlphaTestThreshold: 0.5
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BakedMeshData: 1
+    - _BlendMode: 0
+    - _ColorCorrection: 0
+    - _ColorVariationSpread: 0.2
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _Decals: 1
+    - _DepthOffsetEnable: 0
+    - _DiffusionProfileHash: 3.5648174
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedMode: 2
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 0
+    - _EmissionAffectedByAlbedo: 0
+    - _EmissionExposureWeight: 1
+    - _EmissionIntensity: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _ForceForwardEmissive: 0
+    - _Glossiness: 0.1
+    - _HueVariationKwToggle: 0
+    - _LightingQuality: 0
+    - _LinkMapTilingOffset: 1
+    - _Metallic: 0
+    - _MotionVectors: 1
+    - _NatureRendererInstancing: 1
+    - _NormalMapKwToggle: 1
+    - _NormalMapScale: 1
+    - _ObjectHeight: 0.5
+    - _ObjectRadius: 0.5
+    - _OpaqueCullMode: 2
+    - _Overlay: 1
+    - _RayTracing: 0
+    - _RecalculateWindNormals: 0.5
+    - _ReceivesSSR: 0
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _SampleAlphaOverlay: 1
+    - _SampleColorOverlay: 1
+    - _SecondaryGlossiness: 0.2
+    - _SecondaryMaps: 0
+    - _SecondaryMetallic: 0
+    - _SecondaryNormalMapScale: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SubsurfaceScale: 1
+    - _SupportDecals: 1
+    - _SurfaceMapMethod: 0
+    - _SurfaceType: 0
+    - _TemporalAntiAliasing: 0
+    - _TessellationBackFaceCullEpsilon: -0.25
+    - _TessellationFactorMaxDistance: 50
+    - _TessellationFactorMinDistance: 20
+    - _TessellationFactorTriangleSize: 100
+    - _TessellationMaxDisplacement: 0.01
+    - _TessellationMode: 0
+    - _TessellationShapeFactor: 0.75
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _TurbulenceStrength: 1
+    - _UseShadowThreshold: 0
+    - _VertexNormalStrength: 1
+    - _WINDQUALITY: 4
+    - _Wind: 1
+    - _WindQuality: 4
+    - _WindStrength: 1
+    - _WindVariation: 0.3
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestForward: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - __strip__additional_light_shadows: 1
+    - __strip__additional_lights: 0
+    - __strip__debug: 0
+    - __strip__decals: 1
+    - __strip__fog: 0
+    - __strip__light_cookies: 1
+    - __strip__light_layers: 0
+    - __strip__lightmap: 1
+    - __strip__lod_crossfade: 1
+    - __strip__reflection_probe_blending: 1
+    - __strip__reflection_probe_box_projection: 1
+    - __strip__shadow_mask: 1
+    m_Colors:
+    - Diffusion_Profile_Asset: {r: 0, g: 0, b: 0, a: 0.00018220427}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffusionProfileAsset: {r: 2.2888926e+38, g: 1.2389358e-26, b: 7.69327e-37, a: 0.00018220427}
+    - _Diffusion_Profile_Asset: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FloatingOriginOffset_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _GlossRemap: {r: 0, g: 0.602, b: 0, a: 0}
+    - _HSL: {r: 0.02, g: 0.05, b: 0.1, a: 0}
+    - _HSLVariation: {r: -0.02, g: -0.05, b: -0.1, a: 0}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _OcclusionRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _SecondaryGlossRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _SecondaryOcclusionRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Smoothness_Remap: {r: 0, g: 1, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _TintVariation: {r: 1, g: 1, b: 1, a: 1}
+    - _TrunkBendFactor: {r: 1, g: 0, b: 0, a: 0}
+    - _WindFade: {r: 50, g: 20, b: 0, a: 0}
+  m_BuildTextureStacks: []
