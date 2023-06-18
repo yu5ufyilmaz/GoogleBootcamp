@@ -24,10 +24,10 @@ Unity-39
 
   ## Ürün Özellikleri
   
-  - 
-  - 
+  - Sosyal mesaj içerikli hikaye.
+  - Karanlık tema.
+  - Bulmacalarla zenginleştirilmiş oyun.
   
-
   ## Hedef Kitle
 
    - Aksiyon-macera sevenler
