@@ -41,11 +41,12 @@ Unity-39
 
   -  **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 375 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 125 ile başlaması gerektiğine karar verildi.
 
-  -  **Daily Scrum**: Günlük geribildirimlerimizi whatsapp üzerinden yaptık. Toplantılar sırasında konuşmalarımızı Discord üzerinden sürdürdük.
+  -  **Daily Scrum**: Günlük geribildirimlerimizi whatsapp üzerinden yaptık. Toplantılar sırasında konuşmalarımızı Discord üzerinden sürdürdük. Konuşmaların bir kısmı ektedir.
 
   -  **Sprint board update**:
 
   -   **Ürün Durumu**:
+    
 
   -   **Sprint Review**:
 
