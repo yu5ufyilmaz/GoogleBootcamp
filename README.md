@@ -23,23 +23,25 @@ Unity-39
   ChilDie, savaşların çocuklar üzerindeki etkisini kısmen deneyimlememize yardımcı olmayı hedefliyor. Oyun 2.Dünya savaşı döneminde geçiyor. Bu dönemde savaşa katılan ve savaşta önemli rol oynayan ülkelerdeki çocukların savaştan kaçmaya çalışmasını oyun içerisinde göreceğiz. Amacımız savaş nedir bilmeden kendini bir yıkımın ortasında bulan çocuklar ile oyuncunun empati yapabilmesi. 
 
   ## Ürün Özellikleri
-
+  
+  - 
   - 
   
 
   ## Hedef Kitle
 
-   - Aksiyon-macera seven oyuncular
+   - Aksiyon-macera sevenler
+   - 13 yaş ve üzeri oyuncular
 
   ---
 
 # Sprint 1
 
-  - **Sprint içinde tamamlanması tahmin edilen puan**:
+  - **Sprint içinde tamamlanması tahmin edilen puan**: 125 puan
 
-  -  **Puan tamamlama mantığı**:
+  -  **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 375 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 125 ile başlaması gerektiğine karar verildi.
 
-  -  **Daily Scrum**:
+  -  **Daily Scrum**: Günlük geribildirimlerimizi whatsapp üzerinden yaptık. Toplantılar sırasında konuşmalarımızı Discord üzerinden sürdürdük.
 
   -  **Sprint board update**:
 
