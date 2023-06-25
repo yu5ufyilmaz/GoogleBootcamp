@@ -21,7 +21,6 @@ Material:
   - _TRANSLUCENCY_MAP
   - _WIND
   m_InvalidKeywords:
-  - _DISABLE_DECALS
   - _INTERACTION_OFF
   - _LINKMAPTILINGOFFSET_ON
   - _OVERLAY_OFF

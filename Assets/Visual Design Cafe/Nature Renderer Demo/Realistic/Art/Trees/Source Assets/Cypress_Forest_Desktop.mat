@@ -20,7 +20,6 @@ Material:
   - _TRANSLUCENCY
   - _WIND
   m_InvalidKeywords:
-  - _DISABLE_DECALS
   - _INTERACTION_OFF
   - _LINKMAPTILINGOFFSET_ON
   - _OVERLAY
