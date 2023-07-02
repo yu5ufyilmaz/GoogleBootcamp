@@ -70,7 +70,32 @@ Unity-39
 
  - **Sprint içinde tamamlanması tahmin edilen puan**: 150 puan
 
- -  -  **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 375 puanlık backlog bulunmaktadır. İlk sprintte 125 puanı tamamladık. Geriye kalan 250 puanın 150 puanlık kısmını 2.sprinte ayırdık.
+ -  **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 375 puanlık backlog bulunmaktadır. İlk sprintte 125 puanı tamamladık. Geriye kalan 250 puanın 150 puanlık kısmını 2.sprinte ayırdık.
+
+ -  **Daily Scrum**: Bayram nedeniyle günlük geribildirimlerimizde aksamalar oldu. Konuşma dökümanlarımız ekte bulunuyor.
+   [DailyScrum2](https://docs.google.com/document/d/1ldwl8DcnRtl-9D-tc1cHd8eM3UO3EjBr7qzSB7W5Qt0/edit?usp=sharing)
+
+ - **Sprint board update**:
+  ![sprint2](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/sprint2board.png)
+
+ -   **Ürün Durumu**:    
+   ![urundurumu](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/oyungelisimi.png)
+   ![urundurumu2](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main/images/oyungelisimi2.png)
+
+-   **Sprint Review**:  
+    Alınan kararlar: Seviye tasarımı kontrol edilecek.  
+    Ses, görüntü assetleri eklenecek.  
+    Eksik kodlar tamamlanacak.  
+       Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
+    
+  -   **Sprint Retrospective**:  
+         *katılım*: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
+
+      
+
+  
+
+  
 
       
   
