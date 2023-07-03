@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class PlaneController : MonoBehaviour
 {
-
-    [SerializeField] Transform pervane;
-
-    public float dönmeHýzý = 200f;
-    private float donmeHýzý;
+    public float speed;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.forward, donmeHýzý * Time.deltaTime);
+        transform.position += transform.forward * Time.deltaTime * speed;
     }
 }
