@@ -68,6 +68,8 @@ Unity-39
 
 # Sprint 2
 
+  - **Sprint notları**:  Ara görevler hazırlanan sprint boardda hazırlanan kartlar içerisinde belirtildi. Ara görevlerin tamamlanmasıyla 2.sprint için hedeflenen puana ulaşıldı.
+
  - **Sprint içinde tamamlanması tahmin edilen puan**: 150 puan
 
  -  **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 375 puanlık backlog bulunmaktadır. İlk sprintte 125 puanı tamamladık. Geriye kalan 250 puanın 150 puanlık kısmını 2.sprinte ayırdık.
