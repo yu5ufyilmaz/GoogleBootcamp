@@ -88,7 +88,7 @@ Unity-39
     Eksik kodlar tamamlanacak.  
        Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
     
-  -   **Sprint Retrospective**: 2.sprintte bayram ve müsait olamayışımızdan dolayı yeterli ilerleme kaydedemedik. 3.sprint içerisinde sprint görevlerinin yanısıra 2.sprint için yapılabilecek olanlara bakılacak. 3.sprintte herkesin kod yazması sağlanacak.
+  -   **Sprint Retrospective**: 2.sprintte bayram ve müsait olamayışımızdan dolayı yeterli ilerleme kaydedemedik. 3.sprint içerisinde sprint görevlerinin yanısıra 2.sprint için yapılabilecek olanlara bakılacak. 3.sprintte herkesin kod yazması sağlanacak.  
          *katılım*: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
       
