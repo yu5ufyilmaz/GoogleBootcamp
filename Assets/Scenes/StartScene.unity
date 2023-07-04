@@ -816,9 +816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb34a4c6e08570844ac42f09e846c8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorBody: {fileID: 0}
-  openAngle: 90
-  closeAngle: 0
 --- !u!65 &293022903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13457,7 +13454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430856283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.30967, y: 1.496, z: -9.999956}
+  m_LocalPosition: {x: -31.02967, y: 1.496, z: -9.999956}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13586,7 +13583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534057645}
   m_LocalRotation: {x: 0.05034375, y: 0.00097645994, z: 0.009948101, w: 0.99868196}
-  m_LocalPosition: {x: -12.28, y: 1.496, z: 0}
+  m_LocalPosition: {x: -31, y: 1.496, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13722,7 +13719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.28
+      value: -31
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14358,7 +14355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791906367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.30967, y: 1.496, z: -9.999956}
+  m_LocalPosition: {x: -31.02967, y: 1.496, z: -9.999956}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
