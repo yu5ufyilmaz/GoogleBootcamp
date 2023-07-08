@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Fall : MonoBehaviour
+public class DeathCollider : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
