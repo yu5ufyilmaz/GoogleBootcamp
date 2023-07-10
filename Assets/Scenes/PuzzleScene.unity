@@ -419,11 +419,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &420104498 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-  m_PrefabInstance: {fileID: 746796577}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &423035015
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,22 +624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nurullah
       objectReference: {fileID: 0}
-    - target: {fileID: 7831182713295625386, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-      propertyPath: Camera
-      value: 
-      objectReference: {fileID: 1730779378}
-    - target: {fileID: 7831182713295625386, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-      propertyPath: UseText
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7831182713295625386, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 2009085187}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
 --- !u!1 &954246236
 GameObject:
@@ -2002,25 +1985,6 @@ Rigidbody:
 --- !u!4 &2009085180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-  m_PrefabInstance: {fileID: 746796577}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2009085187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420104498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d9c2ce0a77e8234a8117f418dd555c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pushForce: 1
-  animator: {fileID: 2009085193}
---- !u!95 &2009085193 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6982812146204527121, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
   m_PrefabInstance: {fileID: 746796577}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2023256497
