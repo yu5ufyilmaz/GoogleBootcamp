@@ -6,9 +6,28 @@ using UnityEngine;
 public class moveObject : MonoBehaviour
 {
     public float pushForce = 1;
+    public Animator animator; // Reference to the Animator component
+
+    private CharacterController characterController;
+
+    private void Start()
+    {
+        characterController = GetComponent<CharacterController>();
+    }
+
+    private void Update()
+    {
+        if (characterController.isGrounded)
+        {
+            // Allow character movement
+        }
+    }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        if (!characterController.isGrounded)
+            return;
+
         Rigidbody _rigid = hit.collider.attachedRigidbody;
 
         if (Input.GetKey(KeyCode.LeftControl))
@@ -18,8 +37,11 @@ public class moveObject : MonoBehaviour
                 Vector3 forceDirection = hit.gameObject.transform.position - transform.position;
                 forceDirection.y = 0;
                 forceDirection.Normalize();
-                
-                _rigid.AddForceAtPosition(forceDirection * pushForce,transform.position,ForceMode.Impulse);
+
+                _rigid.AddForceAtPosition(forceDirection * pushForce, transform.position, ForceMode.Impulse);
+
+                // Trigger the animation
+                animator.SetTrigger("PushAnimationTrigger");
             }
         }
     }
