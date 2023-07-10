@@ -2017,6 +2017,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushForce: 1
+  animator: {fileID: 2009085193}
+--- !u!95 &2009085193 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6982812146204527121, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 746796577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2023256497
 GameObject:
   m_ObjectHideFlags: 0
