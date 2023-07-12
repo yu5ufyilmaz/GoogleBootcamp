@@ -7,9 +7,6 @@ public class TriggerToFinal : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if ()
-        {
-            
-        }
+        //devamı gelecek
     }
 }
