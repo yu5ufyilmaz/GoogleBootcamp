@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class TimelineTrigger : MonoBehaviour
 {
+    public GameObject timelineClip;
     public GameObject mainCharacter;
     public GameObject cutSceneCam;
 
@@ -13,6 +15,7 @@ public class TimelineTrigger : MonoBehaviour
     {
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
         cutSceneCam.SetActive(true);
+        timelineClip.SetActive(true);
         mainCharacter.SetActive(false);
         StartCoroutine(FinishCut());
     }
@@ -22,5 +25,6 @@ public class TimelineTrigger : MonoBehaviour
         yield return new WaitForSeconds(10);
         mainCharacter.SetActive(true);
         cutSceneCam.SetActive(false);
+        timelineClip.SetActive(false);
     }
 }
