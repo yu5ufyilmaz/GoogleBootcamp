@@ -6,7 +6,7 @@ using UnityEngine;
 public class moveObject : MonoBehaviour
 {
     public float pushForce = 1;
-    public Animator animator; // Reference to the Animator component
+    public Animator animator;
 
     private CharacterController characterController;
 
@@ -19,7 +19,7 @@ public class moveObject : MonoBehaviour
     {
         if (characterController.isGrounded)
         {
-            // Allow character movement
+            
         }
     }
 
