@@ -93,6 +93,37 @@ Unity-39
   -   **Sprint Retrospective**: 2.sprintte bayram ve müsait olamayışımızdan dolayı yeterli ilerleme kaydedemedik. 3.sprint içerisinde sprint görevlerinin yanısıra 2.sprint için yapılabilecek olanlara bakılacak. 3.sprintte herkesin kod yazması sağlanacak.  
          *katılım*: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
+# Sprint 2
+
+- **Sprint notları**: Ara görevleri sprint board içerisinde gösterdik. Hedeflediğimiz puana ulaştık. Son sprint heyecanıyla beraber proje içerisinde birkaç aksilik yaşasak da ekip olarak hatanın önünü kestik. Menü kısmında oluşan hatadan dolayı menü ve create sahneleri tekrardan yapıldı. Yeni assetler eklendi.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
+
+- **Puan tamamlama mantığı**: 1. ve 2.sprintte sprintlerde hedeflediğimiz 375 puanın 275 puanını tamamladık. Bu sayede son sprint için tamamlamamız gereken 100 puanımız kaldı. Bunu da tamamlayarak hedefimiz olan 370 puana ulaştık.
+   
+- **Daily Scrum**: Günlük geribildirimlerimizi whatsapp üzerinden yaptık. Hergün iletişimde kaldık fakat iş, staj ve sınav durumlarından sesli/görüntülü toplantı yapamadık. Whatsapp konuşmalarımız ekte bulunuyor.  
+  [dailyscrum3](https://docs.google.com/document/d/1U9Q8_lM-E9w5vQieq1FFl_szp65XIcjPcEjz-91HGBw/edit?usp=sharing)
+- **Sprint board update**:
+    ![](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/sprint3board.png)
+
+- **Ürün Durumu**:
+  ![create](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/BootcampCredits.jpg)
+
+-   **Sprint Review**:  Alınan kararlar: Hem yorucu hem de eğlenceli bir süreci geri bırakmak üzereyiz. Ekipte çoğumuzun ilk deneyimiydi bu ve hepimizin deneyim kazanmasına yardımcı oldu. Nelerde eksiğimiz olduğunu, ekip çalışmalarında nelere dikkat etmemiz gerektiğinin farkına vardık. Ekipteki aktif bulunan tüm üyelere emekleri için buradan da teşekkürlerimizi iletiyoruz. Herkesin eline sağlık.  
+Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar  
+
+-  Bunlardan bazıları: Sprint sonu görüşlerimiz:
+  
+  -   "Projeyi yönetirken ve oyun geliştirirken ufak aksaklıklar yaşasakta çok şey öğrendim. Bu deneyimi takım arkadaşlarımla yaşadığım için çok memnunum."
+  -   "Arada hatalarımız da olsa takım olarak çalışarak güzel bir iş ortaya koymaya çalıştık. Elimizden geleni yaptık ve hepimiz için çok iyi bir deneyim oldu."
+  -   "Tamamen yoğunlaşamadığımız, bazen çözümsüz hatalarla karşılaştığımız bir sprint olsa da deneyim kazanmamızda çok faydası oldu. İleriki projelemizde nelere dikkat etmemiz gerektiğini fark etmemizi sağladı."
+  -   Sprint sonu testi başarılı geçti.
+ Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
+
+
+
+
+
       
 
   
