@@ -117,7 +117,9 @@ Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alem
   -   "Projeyi yönetirken ve oyun geliştirirken ufak aksaklıklar yaşasakta çok şey öğrendim. Bu deneyimi takım arkadaşlarımla yaşadığım için çok memnunum."
   -   "Arada hatalarımız da olsa takım olarak çalışarak güzel bir iş ortaya koymaya çalıştık. Elimizden geleni yaptık ve hepimiz için çok iyi bir deneyim oldu."
   -   "Tamamen yoğunlaşamadığımız, bazen çözümsüz hatalarla karşılaştığımız bir sprint olsa da deneyim kazanmamızda çok faydası oldu. İleriki projelemizde nelere dikkat etmemiz gerektiğini fark etmemizi sağladı."
-  -   Sprint sonu testi başarılı geçti.
+
+     
+  -  **Sprint Retrospective**: Sprint sonu testi başarılı geçti. Ekiple son kez toplanılıp sprint toplantısı yapıldı.
  Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
 
