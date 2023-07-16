@@ -3204,7 +3204,7 @@ GameObject:
   - component: {fileID: 178884622}
   - component: {fileID: 178884621}
   m_Layer: 0
-  m_Name: TimelineCamera
+  m_Name: TimelineCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23897,7 +23897,7 @@ GameObject:
   - component: {fileID: 1459612298}
   - component: {fileID: 1459612297}
   m_Layer: 0
-  m_Name: Timeline
+  m_Name: Timeline1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23912,7 +23912,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1459612296}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 893fc3746cf887b42bdba96804f7d44f, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: e4a0ddd2df6e1b84ba0ee913549a1ce4, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -23923,6 +23923,12 @@ PlayableDirector:
   - key: {fileID: 0}
     value: {fileID: 178884621}
   - key: {fileID: 7596230925323804070, guid: 893fc3746cf887b42bdba96804f7d44f, type: 2}
+    value: {fileID: 470442882}
+  - key: {fileID: -5816380579866266904, guid: 893fc3746cf887b42bdba96804f7d44f, type: 2}
+    value: {fileID: 178884621}
+  - key: {fileID: -8405132534566805944, guid: 4bda8b22e82f78d4dabcb49083f067ca, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7393668678869106597, guid: e4a0ddd2df6e1b84ba0ee913549a1ce4, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -25012,7 +25018,7 @@ GameObject:
   - component: {fileID: 1541907465}
   - component: {fileID: 1541907464}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: Camera2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28950,7 +28956,7 @@ GameObject:
   - component: {fileID: 1750960404}
   - component: {fileID: 1750960403}
   m_Layer: 0
-  m_Name: Timeline
+  m_Name: Timeline2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28973,6 +28979,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -8405132534566805944, guid: 4bda8b22e82f78d4dabcb49083f067ca, type: 2}
     value: {fileID: 1541907464}
+  - key: {fileID: -433245133835266146, guid: 4bda8b22e82f78d4dabcb49083f067ca, type: 2}
+    value: {fileID: 470442882}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1750960404
