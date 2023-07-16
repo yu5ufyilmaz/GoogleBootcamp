@@ -93,7 +93,7 @@ Unity-39
   -   **Sprint Retrospective**: 2.sprintte bayram ve müsait olamayışımızdan dolayı yeterli ilerleme kaydedemedik. 3.sprint içerisinde sprint görevlerinin yanısıra 2.sprint için yapılabilecek olanlara bakılacak. 3.sprintte herkesin kod yazması sağlanacak.  
          *katılım*: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
-# Sprint 2
+# Sprint 3
 
 - **Sprint notları**: Ara görevleri sprint board içerisinde gösterdik. Hedeflediğimiz puana ulaştık. Son sprint heyecanıyla beraber proje içerisinde birkaç aksilik yaşasak da ekip olarak hatanın önünü kestik. Menü kısmında oluşan hatadan dolayı menü ve create sahneleri tekrardan yapıldı. Yeni assetler eklendi.
 
