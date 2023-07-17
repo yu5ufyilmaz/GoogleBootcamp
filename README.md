@@ -113,16 +113,15 @@ Unity-39
   ![image3](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/baslang%C4%B1c.png)  
 
 -   **Sprint Review**:  Alınan kararlar: Hem yorucu hem de eğlenceli bir süreci geri bırakmak üzereyiz. Ekipte çoğumuzun ilk deneyimiydi bu ve hepimizin deneyim kazanmasına yardımcı oldu. Nelerde eksiğimiz olduğunu, ekip çalışmalarında nelere dikkat etmemiz gerektiğinin farkına vardık. Ekipteki aktif bulunan tüm üyelere emekleri için buradan da teşekkürlerimizi iletiyoruz. Herkesin eline sağlık.  
-Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar  
+Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
--  Bunlardan bazıları: Sprint sonu görüşlerimiz:
+-  **Sprint Retrospective**:
+  Sprint sonu görüşlerimiz:
   
-  -   "Projeyi yönetirken ve oyun geliştirirken ufak aksaklıklar yaşasakta çok şey öğrendim. Bu deneyimi takım arkadaşlarımla yaşadığım için çok memnunum."
-  -   "Arada hatalarımız da olsa takım olarak çalışarak güzel bir iş ortaya koymaya çalıştık. Elimizden geleni yaptık ve hepimiz için çok iyi bir deneyim oldu."
-  -   "Tamamen yoğunlaşamadığımız, bazen çözümsüz hatalarla karşılaştığımız bir sprint olsa da deneyim kazanmamızda çok faydası oldu. İleriki projelemizde nelere dikkat etmemiz gerektiğini fark etmemizi sağladı."
-
-     
-  -  **Sprint Retrospective**: Sprint sonu testi başarılı geçti. Ekiple son kez toplanılıp sprint toplantısı yapıldı.
+    -   "Projeyi yönetirken ve oyun geliştirirken ufak aksaklıklar yaşasakta çok şey öğrendim. Bu deneyimi takım arkadaşlarımla yaşadığım için çok memnunum."
+    -   "Arada hatalarımız da olsa takım olarak çalışarak güzel bir iş ortaya koymaya çalıştık. Elimizden geleni yaptık ve hepimiz için çok iyi bir deneyim oldu."
+    -   "Tamamen yoğunlaşamadığımız, bazen çözümsüz hatalarla karşılaştığımız bir sprint olsa da deneyim kazanmamızda çok faydası oldu. İleriki projelemizde nelere dikkat etmemiz gerektiğini fark etmemizi sağladı."
+    - Sprint sonu testi başarılı geçti. Ekiple son kez toplanılıp sprint toplantısı yapıldı.
  Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar
 
 
