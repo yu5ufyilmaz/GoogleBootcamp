@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: 7393668678869106597}
+  - {fileID: 7070239439383618721}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 0
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &7393668678869106597
+--- !u!114 &7070239439383618721
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
