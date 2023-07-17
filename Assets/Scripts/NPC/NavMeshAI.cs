@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using TMPro;
 
 public class NavMeshAI : MonoBehaviour
 {
@@ -21,10 +22,15 @@ public class NavMeshAI : MonoBehaviour
 
     private Animator _animator;    
 
+    
+    public TextMeshProUGUI scoreText;
+    private int score;
     private void Start()
     {
         _animator = GetComponent<Animator>();
         SetNextWaypoint();
+        score = PlayerPrefs.GetInt("DeathCount");
+        scoreText.text = score.ToString();
     }
 
     private void Update()
@@ -100,8 +106,17 @@ public class NavMeshAI : MonoBehaviour
         agent.speed = chaseSpeed; 
         _animator.SetFloat("Speed",chaseSpeed);
         agent.SetDestination(player.position);
+        
     }
 
+    private void IncreaseScore()
+    {
+        score = PlayerPrefs.GetInt("DeathCount");
+        score++;
+        PlayerPrefs.SetInt("DeathCount",score);
+        scoreText.text = score.ToString();
+    }
+    
     private void AttackPlayer()
     {
         transform.LookAt(player);
@@ -109,6 +124,7 @@ public class NavMeshAI : MonoBehaviour
 
         isPlayerDead = true;
         StartCoroutine(RestartGame());
+        IncreaseScore();
     }
 
     private IEnumerator RestartGame()
