@@ -103,11 +103,14 @@ Unity-39
    
 - **Daily Scrum**: Günlük geribildirimlerimizi whatsapp üzerinden yaptık. Hergün iletişimde kaldık fakat iş, staj ve sınav durumlarından sesli/görüntülü toplantı yapamadık. Whatsapp konuşmalarımız ekte bulunuyor.  
   [dailyscrum3](https://docs.google.com/document/d/1U9Q8_lM-E9w5vQieq1FFl_szp65XIcjPcEjz-91HGBw/edit?usp=sharing)
-- **Sprint board update**:
+- **Sprint board update**:  
     ![](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/sprint3board.png)
 
-- **Ürün Durumu**:
-  ![create](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/BootcampCredits.jpg)
+- **Ürün Durumu**:  
+  ![create](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/BootcampCredits.jpg)  
+  ![image1](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/oyun1.png)  
+  ![image2](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/kopru.png)  
+  ![image3](https://github.com/yu5ufyilmaz/GoogleBootcamp/blob/main2/images/baslang%C4%B1c.png)  
 
 -   **Sprint Review**:  Alınan kararlar: Hem yorucu hem de eğlenceli bir süreci geri bırakmak üzereyiz. Ekipte çoğumuzun ilk deneyimiydi bu ve hepimizin deneyim kazanmasına yardımcı oldu. Nelerde eksiğimiz olduğunu, ekip çalışmalarında nelere dikkat etmemiz gerektiğinin farkına vardık. Ekipteki aktif bulunan tüm üyelere emekleri için buradan da teşekkürlerimizi iletiyoruz. Herkesin eline sağlık.  
 Katılım: Yusuf Yılmaz, Rabia Arslan, Muhammed Furkan Türk, Havva Zişan Alemdar  
